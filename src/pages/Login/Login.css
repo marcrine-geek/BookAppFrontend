@@ -1,0 +1,34 @@
+.App {
+	display: flex;
+	float: left;
+	margin-top: 50px;
+	margin-left: 25rem;
+}
+.book-img {
+	float: right;
+}
+.book-img img {
+	margin-left: 200px;
+	width: 1000px;
+	height: 910px;
+}
+input {
+	border: solid black;
+	border-radius: 5px;
+	display: block;
+	padding: 20px;
+	margin: 20px;
+}
+button {
+	padding: 1rem;
+	width: 21.2rem;
+	font-size: 1.2em;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	background-color: greenyellow;
+	justify-content: center;
+	margin-left: 23px;
+}
+button:hover {
+	background-color: #c5c5c5;
+}

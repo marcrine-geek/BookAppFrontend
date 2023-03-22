@@ -1,0 +1,16 @@
+.librarytitle {
+	text-align: center;
+	margin-left: 100px;
+	font-size: 30px;
+}
+.data {
+	margin-bottom: 100px;
+}
+.readb {
+	float: left;
+	margin-left: 80px;
+}
+.toread {
+	float: right;
+	margin-right: 80px;
+}
