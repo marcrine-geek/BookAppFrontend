@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbarhome from '../../components/Navbar/Navbarhome';
 import bookImg from '../../images/book.jpeg';
 import './Register.css';
 
@@ -40,6 +41,7 @@ const Register = () => {
 
 	return (
 		<div>
+			<Navbarhome />
 			<div className='App'>
 				<form onSubmit={handleSubmit}>
 					<h1>Register to NerdsHub</h1>

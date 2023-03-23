@@ -56,7 +56,7 @@ const Navbarhome = () => {
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='register'
+								to='/register'
 								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
 							>
 								Register
@@ -64,7 +64,7 @@ const Navbarhome = () => {
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='login'
+								to='/login'
 								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
 							>
 								Login

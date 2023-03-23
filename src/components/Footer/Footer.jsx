@@ -5,7 +5,7 @@ export default function App() {
 	return (
 		<MDBFooter
 			className='text-center text-white'
-			style={{ backgroundColor: '#0a4275' }}
+			style={{ backgroundColor: '#953bd5' }}
 		>
 			<MDBContainer className='p-4 pb-0'>
 				<section className=''>
@@ -14,7 +14,7 @@ export default function App() {
 						<MDBBtn
 							type='button'
 							style={{
-								background: '#0a4275',
+								background: '#953bd5',
 								border: 'solid white',
 								borderRadius: '10px',
 								color: 'white',
@@ -32,7 +32,7 @@ export default function App() {
 
 			<div
 				className='text-center p-3'
-				style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', height: '40px' }}
+				style={{ backgroundColor: '#4f0585', height: '65px' }}
 			>
 				© 2023 Copyright:
 				<a className='text-white' href='http://localhost:3000/'>

@@ -84,12 +84,19 @@ const BookDetails = () => {
 
 		console.log('My new data to database________________', book);
 
-		const headers = { 'Content-Type': 'application/json' };
+		// const headers = { 'Content-Type': 'application/json' };
+
+		const token = localStorage.token;
+
+		console.log(token);
 
 		fetch('http://127.0.0.1:5000/api/v1/read', {
 			method: 'POST',
 			// mode: 'no-cors',
-			headers: headers,
+			headers: new Headers({
+				Authorization: `Bearer ${token}`,
+				'Content-Type': 'application/json',
+			}),
 			body: JSON.stringify({
 				title: title,
 			}),
@@ -119,12 +126,19 @@ const BookDetails = () => {
 
 		console.log('My new data to database________________', mybook);
 
-		const headers = { 'Content-Type': 'application/json' };
+		// const headers = { 'Content-Type': 'application/json' };
+
+		const token = localStorage.token;
+
+		console.log(token);
 
 		fetch('http://127.0.0.1:5000/api/v1/toread', {
 			method: 'POST',
 			// mode: 'no-cors',
-			headers: headers,
+			headers: new Headers({
+				Authorization: `Bearer ${token}`,
+				'Content-Type': 'application/json',
+			}),
 			body: JSON.stringify({
 				title: title,
 			}),

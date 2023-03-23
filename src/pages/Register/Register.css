@@ -25,9 +25,10 @@ button {
 	font-size: 1.2em;
 	border-radius: 0.2rem;
 	cursor: pointer;
-	background-color: greenyellow;
+	background-color: #953bd5;
 	justify-content: center;
 	margin-left: 23px;
+	color: white;
 }
 button:hover {
 	background-color: #c5c5c5;

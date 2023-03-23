@@ -5,12 +5,26 @@
 }
 .data {
 	margin-bottom: 100px;
+	height: 550px;
 }
 .readb {
 	float: left;
-	margin-left: 80px;
+	margin-left: 100px;
 }
 .toread {
 	float: right;
-	margin-right: 80px;
+	margin-right: 100px;
+}
+
+table {
+	border: 3px solid purple;
+	width: 800px;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+td {
+	text-align: center;
 }
