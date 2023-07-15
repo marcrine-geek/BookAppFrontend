@@ -74,9 +74,9 @@ const Register = () => {
 					<button type='submit'>Register</button>
 				</form>
 			</div>
-			<div className='book-img'>
+			{/* <div className='book-img'>
 				<img src={bookImg} alt='' />
-			</div>
+			</div> */}
 		</div>
 	);
 };

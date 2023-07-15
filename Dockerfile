@@ -1,9 +1,9 @@
-FROM node:16.18
+FROM node:16-alpine
 
 ENV PORT=3000
 
-COPY . /bookapp-react-js
 WORKDIR /bookapp-react-js
-RUN npm install
+COPY . /bookapp-react-js
+RUN npm run build
 EXPOSE ${PORT}
 CMD ["npm", "start"]

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Page</h2>
+
+<div id="demo"></div>
+
+<script>
+const cars = ["mercedes", "mazda", "toyota"]
+console.log("innnnnn")
+let x = cars.length
+for(i=0; i<x; i++){
+	console.log(cars[i])
+}
+const carsJSON = JSON.stringify(cars)
+document.getElementById("demo").innerHTML=carsJSON;
+</script>
+
+</body>
+</html>

@@ -70,9 +70,9 @@ const Login = () => {
 					<button type='submit'>Login</button>
 				</form>
 			</div>
-			<div className='book-img'>
+			{/* <div className='book-img'>
 				<img src={loginImg} alt='' />
-			</div>
+			</div> */}
 		</div>
 	);
 };
