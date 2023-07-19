@@ -11,7 +11,7 @@ const HomePage = () => {
 				<Navbarhome />
 				<div className='header-content flex flex-c text-center text-white'>
 					<h2 className='header-title text-capitalize'>
-						find and track your book of choice.
+						find and track your best book.
 					</h2>
 					<br />
 					<p className='header-text fs-18 fw-3'>
