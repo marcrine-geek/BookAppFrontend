@@ -5,7 +5,7 @@ cd app
 
 # initial startup by running react-script "start", name process "marketing"
 # --watch watches and restarts if files change
-pm2 start ./node_modules/react-scripts/scripts/start.js --name "marketing" --watch
+npm start
 
 # auto restart server if shut down
 pm2 startup
