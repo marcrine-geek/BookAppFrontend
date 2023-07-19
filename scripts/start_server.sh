@@ -10,5 +10,5 @@
 # pm2 startup
 # pm2 save
 # pm2 restart all
-
-systemctl restart nginx
+systemctl -l enable nginx
+systemctl -l start nginx
