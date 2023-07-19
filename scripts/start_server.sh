@@ -11,7 +11,8 @@ npm start
 pm2 startup
 
 # freeze process list for automatic respawn
-pm2 save
+pm2 save --force
 
 # restart all processes - necessary to do this again?
 pm2 restart all
+
