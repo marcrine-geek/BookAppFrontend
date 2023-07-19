@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /app
+    destination: app
     overwrite: true
 
 permissions:
