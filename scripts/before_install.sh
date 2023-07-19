@@ -4,5 +4,5 @@
 cd /app
 
 # install node and npm
-apt install nodejs
-apt install npm
+sudo apt install nodejs -y
+sudo apt install npm
