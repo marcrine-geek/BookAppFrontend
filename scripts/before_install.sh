@@ -4,5 +4,6 @@
 cd /app
 
 # install node and npm
-apt install nodejs -y
-apt install npm -y
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install nodejs -y
+apt-get install npm -y
