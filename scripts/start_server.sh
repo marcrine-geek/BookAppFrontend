@@ -15,5 +15,3 @@ pm2 save --force
 
 # restart all processes - necessary to do this again?
 pm2 startup
-
-systemctl enable pm2-root
