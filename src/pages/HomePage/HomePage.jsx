@@ -18,6 +18,7 @@ const HomePage = () => {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae
 						sapiente quibusdam consequatur perspiciatis facere laboriosam non
 						nesciunt at id repudiandae, modi iste? Eligendi, rerum!
+						LOREMMMMMMMMMM WORKING
 					</p>
 				</div>
 			</header>
