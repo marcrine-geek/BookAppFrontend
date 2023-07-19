@@ -5,12 +5,12 @@ version: 0.0
 os: linux 
 
 files:
-  - source: /
-    destination: /app
+  - source: /app/build
+    destination: /var/www/html
     overwrite: true
 
 permissions:
-  - object: /
+  - object: /var/www/html
     pattern: "**"
     owner: ec2-user
     group: ec2-user
