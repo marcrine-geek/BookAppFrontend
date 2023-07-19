@@ -5,9 +5,7 @@ cd /app
 
 # install dependencies
 npm install
-
-# install create-react-app and react-scripts
-# without react-scripts application cannot be started
 npm install --save react react-dom react-scripts
-# install pm2 process manager
+npm run build
+cp -r build/* /var/www/html
 npm install pm2 -g
