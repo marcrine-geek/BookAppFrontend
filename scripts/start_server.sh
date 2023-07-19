@@ -8,12 +8,12 @@ cd app
 npm start
 
 # auto restart server if shut down
-pm2 startup
+pm2 start
 
 # freeze process list for automatic respawn
 pm2 save --force
 
 # restart all processes - necessary to do this again?
-pm2 restart all
+pm2 startup
 
 systemctl enable pm2-root
