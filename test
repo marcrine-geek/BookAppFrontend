@@ -1,0 +1,12 @@
+<Proxy balancer://mybalancer>
+    BalancerMember http://ALB-backend-1077597105.us-east-1.elb.amazonaws.com:8080
+    ProxySet lbmethod=bytraffic
+</Proxy>
+
+ProxyPreserveHost On
+
+ProxyPass / http://ALB-backend-1077597105.us-east-1.elb.amazonaws.com:8080/
+ProxyPassReverse / http://ALB-backend-1077597105.us-east-1.elb.amazonaws.com:8080/
+
+ProxyPass / https://3tier.resourcecloudacademy.com/
+ProxyPassReverse / https://3tier.resourcecloudacademy.com/
