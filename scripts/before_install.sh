@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd app
+cd /app
 
 # install node and npm
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
