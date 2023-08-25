@@ -15,7 +15,7 @@ const HomePage = () => {
 					</h2>
 					<br />
 					<p className='header-text fs-18 fw-3'>
-						CloudForce Sky Challenge
+						React App CI/CD Pipeline Using AWS CodePipeline
 					</p>
 				</div>
 			</header>
