@@ -10,9 +10,9 @@ const HomePage = () => {
 			<header className='header'>
 				<Navbarhome />
 				<div className='header-content flex flex-c text-center text-white'>
-					<h2 className='header-title text-capitalize'>
-						Track your reading progress.
-					</h2>
+					<h1 className='header-title text-capitalize'>
+						BookApp Library.
+					</h1>
 					<br />
 					<p className='header-text fs-18 fw-3'>
 						React App CI/CD Pipeline Using AWS CodePipeline
