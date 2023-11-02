@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbarhome from '../../components/Navbar/Navbarhome';
-import loginImg from '../../images/loginimg.jpeg';
+// import loginImg from '../../images/loginimg.jpeg';
 import './Login.css';
 
 const Login = () => {

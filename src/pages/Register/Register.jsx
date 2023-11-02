@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbarhome from '../../components/Navbar/Navbarhome';
-import bookImg from '../../images/book.jpeg';
+// import bookImg from '../../images/book.jpeg';
 import './Register.css';
 
 const Register = () => {
