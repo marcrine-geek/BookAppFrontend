@@ -9,11 +9,10 @@
 # CMD ["npm", "start"]
 
 FROM node:17.1-alpine as build-stage
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
+WORKDIR /bookapp-react-js
+COPY . /bookapp-react-js
 RUN npm run build
+CMD ["npm", "start"]
 
 FROM nginx:1.22.1-alpine as prod-stage
 COPY --from=build-stage /app/build /usr/share/nginx/html
