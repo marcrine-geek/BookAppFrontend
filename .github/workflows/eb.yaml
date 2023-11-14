@@ -42,7 +42,7 @@ jobs:
           application_name: BOOKAPP
           environment_name: BOOKAPP-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
-          region: us-west-2
+          region: us-east-1
           deployment_package: BookAppFrontend.zip
 
       - name: Deployed!
