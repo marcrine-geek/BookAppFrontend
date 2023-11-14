@@ -14,7 +14,7 @@ COPY . /bookapp-react-js
 RUN npm run build
 CMD ["npm", "start"]
 
-FROM nginx:1.22.1-alpine as prod-stage
+FROM nginx:1.22.1-alpine
 COPY --from=build-stage /app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
