@@ -39,8 +39,8 @@ jobs:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
           aws_access_key: "${{ secrets.ACCESS_KEY }}"
           aws_secret_key: "${{ secrets.SECRET_ACCESS_KEY }}"
-          application_name: book-app
-          environment_name: Book-app-env
+          application_name: BOOKAPP
+          environment_name: BOOKAPP-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
           region: us-west-2
           deployment_package: BookAppFrontend.zip
