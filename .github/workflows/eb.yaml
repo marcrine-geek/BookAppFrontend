@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate Deployment Package 
         # zip all files except .git
-        run: zip -r BookAppFrontend.zip * -x "**.git**"
+        run: zip -r BookAppFrontend2.zip * -x "**.git**"
 
       - name: Get timestamp
         uses: gerred/actions/current-time@master
