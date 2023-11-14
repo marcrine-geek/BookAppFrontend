@@ -43,7 +43,7 @@ jobs:
           environment_name: BOOKAPP-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
-          deployment_package: BookAppFrontend.zip
+          deployment_package: BookAppFrontend2.zip
 
       - name: Deployed!
         run: echo App deployed to ELB
