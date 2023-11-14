@@ -8,7 +8,7 @@
 # EXPOSE ${PORT}
 # CMD ["npm", "start"]
 
-FROM node:16.1-alpine
+FROM node:16-alpine
 WORKDIR /bookapp-react-js
 COPY . /bookapp-react-js
 RUN npm run build
