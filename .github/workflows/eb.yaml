@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest # the OS your job should run on
     strategy:
       matrix:
-        node-version: [17.x]
+        node-version: [16.x]
     steps:
       - name: Checkout Latest Repo
         # checks out your repository under the GitHub workspace so that your workflow can access it
