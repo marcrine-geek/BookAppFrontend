@@ -1,6 +1,6 @@
 name: Deploy React Book App from GitHub to AWS Elastic Beanstalk
 on:
-  # activates the workflow when there is a push on the master branch
+  # activates the workflow when there is a push on the main branch
   push:
     branches:
       - main
@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate Deployment Package 
         # zip all files except .git
-        run: zip -r BookAppFrontend2.zip * -x "**.git**"
+        run: zip -r BookAppFrontend.zip * -x "**.git**"
 
       - name: Get timestamp
         uses: gerred/actions/current-time@master
@@ -39,11 +39,11 @@ jobs:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
           aws_access_key: "${{ secrets.ACCESS_KEY }}"
           aws_secret_key: "${{ secrets.SECRET_ACCESS_KEY }}"
-          application_name: LIBRARY
-          environment_name: LIBRARY-env
+          application_name: NerdsHubApp
+          environment_name: NerdsHubApp-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
-          deployment_package: BookAppFrontend2.zip
+          deployment_package: BookAppFrontend.zip
 
       - name: Deployed!
         run: echo App deployed to ELB
