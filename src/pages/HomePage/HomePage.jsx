@@ -15,6 +15,8 @@ const HomePage = () => {
 					</h1>
 					<br />
 					<p className='header-text fs-18 fw-3'>
+						<h3>This is a CI/CD Pipeline that uses github actions</h3>
+						<h2 className='text-capitalize'><b>This is a success</b></h2>
 						React App CI/CD Pipeline Using AWS CodePipeline
 					</p>
 				</div>
