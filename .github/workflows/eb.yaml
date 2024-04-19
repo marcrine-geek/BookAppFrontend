@@ -34,7 +34,7 @@ jobs:
           flags: 'g'
 
       - name: Deploy to EB
-        uses: einaregilsson/beanstalk-deploy@v21
+        uses: einaregilsson/beanstalk-deploy@v22
         with:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
           aws_access_key: "${{ secrets.ACCESS_KEY }}"
