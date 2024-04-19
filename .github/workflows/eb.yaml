@@ -39,8 +39,8 @@ jobs:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
           aws_access_key: "${{ secrets.ACCESS_KEY }}"
           aws_secret_key: "${{ secrets.SECRET_ACCESS_KEY }}"
-          application_name: NerdsHubApp
-          environment_name: NerdsHubApp-env
+          application_name: ToDo-app-v2
+          environment_name: ToDo-app-v2-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
           deployment_package: BookAppFrontend.zip
