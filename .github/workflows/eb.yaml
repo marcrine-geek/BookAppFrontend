@@ -42,7 +42,7 @@ jobs:
           application_name: ToDo-app-v2
           environment_name: ToDo-app-v2-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-1
+          region: us-west-2
           deployment_package: BookAppFrontend.zip
 
       - name: Deployed!
